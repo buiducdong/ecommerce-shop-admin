@@ -1,0 +1,72 @@
+/* .productPage {
+  flex: 4;
+} */
+.productList {
+  flex: 4;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newProductBtn {
+  padding: 4px;
+  background-color: aqua;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  padding: 10px;
+  border: 1px solid black;
+  margin-right: 20px;
+  max-width: 150px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  flex: 1;
+}
+
+.product img {
+  width: 150px;
+  height: 150px;
+}
+
+.action {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.action .edit {
+  display: block;
+  padding: 4px 15px;
+  border-radius: 4px;
+  background-color: aqua;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.action .delete {
+  display: block;
+  border-radius: 4px;
+  padding: 4px 15px;
+  background-color: rgb(255, 0, 0);
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.action-btn:hover {
+  background-color: rgb(35, 14, 189);
+  transition: all ease-in 0.2s;
+}

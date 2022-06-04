@@ -1,0 +1,18 @@
+.containerr {
+  flex: 3;
+  width: 100%;
+}
+
+.order-box {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+}
+
+.image {
+  width: 40px;
+  height: 40px;
+}

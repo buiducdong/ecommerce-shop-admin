@@ -1,0 +1,80 @@
+.userList {
+  flex: 4;
+  padding: 50px 30px;
+}
+
+.users {
+  display: flex;
+  background-color: red;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header h2 {
+  font-size: 34px;
+}
+
+.header button {
+  background-color: aqua;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.search {
+  background-color: darkgrey;
+}
+
+.search input {
+  padding: 5px;
+  outline: none;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.userItem {
+  display: flex;
+  min-width: 200px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3bb077;
+  padding: 10px;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.userListImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.userListEdit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #3bb077;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.userListDelete {
+  color: red;
+  cursor: pointer;
+}
